@@ -79,18 +79,6 @@ const isArabic = document.documentElement.lang === 'ar';
 
 const menuCategories = [
   {
-    id: 'fatteh',
-    labelAr: 'الفتة',
-    labelEn: 'Fatteh',
-    items: [
-      { nameAr: 'موزة فتة (فيلة / أرز)', nameEn: 'Mutton Shank Fatteh',      price: 50 },
-      { nameAr: 'فتة عكاوي',             nameEn: 'Akkawi Fatteh',             price: 52.50 },
-      { nameAr: 'فتة كوارع',             nameEn: 'Knuckles Fatteh',           price: 52.20 },
-      { nameAr: 'فتة الكبد الإسكندراني', nameEn: 'Alexandrian Liver Fatteh',  price: 36.50 },
-      { nameAr: 'فتة لحمة',              nameEn: 'Meat Fatteh',               price: 47 },
-    ]
-  },
-  {
     id: 'grills',
     labelAr: 'مشاوي البرنس',
     labelEn: 'Prince Grills',
@@ -139,6 +127,18 @@ const menuCategories = [
       { nameAr: '٢ فرد حمام مشوي',       nameEn: 'Grilled pigeon 2 pcs',      price: 90 },
       { nameAr: 'شيش طاووق',             nameEn: 'Sheesh Tawook',
         options: [{ labelAr: 'صغير', labelEn: 'S', price: 31.50 }, { labelAr: 'كبير', labelEn: 'L', price: 115 }] },
+    ]
+  },
+  {
+    id: 'fatteh',
+    labelAr: 'الفتة',
+    labelEn: 'Fatteh',
+    items: [
+      { nameAr: 'موزة فتة (فيلة / أرز)', nameEn: 'Mutton Shank Fatteh',      price: 50 },
+      { nameAr: 'فتة عكاوي',             nameEn: 'Akkawi Fatteh',             price: 52.50 },
+      { nameAr: 'فتة كوارع',             nameEn: 'Knuckles Fatteh',           price: 52.20 },
+      { nameAr: 'فتة الكبد الإسكندراني', nameEn: 'Alexandrian Liver Fatteh',  price: 36.50 },
+      { nameAr: 'فتة لحمة',              nameEn: 'Meat Fatteh',               price: 47 },
     ]
   },
   {
